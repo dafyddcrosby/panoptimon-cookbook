@@ -1,3 +1,4 @@
+name             "panoptimon"
 maintainer       "Sourcefire"
 maintainer_email "mcarruthers@sourcefire.com"
 license          "All rights reserved"

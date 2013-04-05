@@ -7,8 +7,6 @@
 #
 
 case node['platform']
-when 'centos', 'redhat', 'fedora', 'scientific'
+when 'centos', 'redhat', 'fedora', 'scientific', 'amazon'
   include_recipe 'panoptimon::redhat'
 end
-
-  
