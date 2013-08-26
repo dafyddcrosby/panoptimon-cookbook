@@ -5,10 +5,9 @@
 #
 # All rights reserved - Do Not Redistribute
 #
-package 'java-1.7.0-openjdk'
 
-%w[eventmachine daemons thin riemann-client sys-filesystem].each do |gem_pkg|
-  gem_package gem_pkg
+gem_package "panoptimon" do
+  action :install
 end
 
 [ node['panoptimon']['install_dir'],
