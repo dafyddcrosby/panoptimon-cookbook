@@ -6,12 +6,10 @@ A system agent responsible for managing system metric collection & distribution.
 Requirements
 ============
 
-* OpenJDK 1.7.0
 * Ruby Gem: eventmachine
 * Ruby Gem: daemons
 * Ruby Gem: thin
 * Ruby Gem: riemann-client
-* Ruby Gem: sys-filesystem
 
 Recipes
 =======
@@ -44,14 +42,10 @@ This cookbook installs all the necessary requirements & configures a base instal
 Vagrant
 =======
 
-A basic Vagrantfile is provided with the intent to provide a means to quickly get Panoptimon up & running. It is expected a Vagrant box will be available, refer to Vagrant's [documentation](http://vagrantup.com/v1/docs/boxes.html) for more information. Certain configuration settings may not suite your environment, update where appropriate.
+A basic Vagrantfile is provided with the intent to provide a means to quickly get Panoptimon up & running.
+It is expected a Vagrant box will be available, refer to Vagrant's [documentation](http://vagrantup.com/v1/docs/boxes.html) for more information.
+Certain configuration settings may not suit your environment, update where appropriate.
 
 ## Attributes
 
 All attributes within the Vagrantfile are identical to the attributes described above. 
-
-
-
-
-
-
